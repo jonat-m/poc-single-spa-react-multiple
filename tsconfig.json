@@ -1,0 +1,11 @@
+{
+  "extends": "ts-config-single-spa",
+  "compilerOptions": {
+    "lib": ["dom", "dom.iterable"],
+    "jsx": "react-jsx",
+    "declarationDir": "dist"
+  },  
+  "files": ["src/org-react-multiple.tsx"],
+  "include": ["src/**/*"],
+  "exclude": ["src/**/*.test*"]
+}
